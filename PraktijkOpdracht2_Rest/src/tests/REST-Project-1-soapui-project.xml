@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="49b755b9-22ab-42fe-87af-0dee93c8d107" activeEnvironment="Default" name="REST Project 1" resourceRoot="" soapui-version="5.3.0" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.TestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Environment" value="Default"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="TestSuite" value="&lt;all>"/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="TestRunner Path" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Ignore Errors" value="false"/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="Save Project" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Export JUnit Results" value="false"/>
+  <con:entry key="Export JUnit Results with test properties" value="false"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Export All" value="false"/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="TestCase" value="&lt;all>"/>
+  <con:entry key="Print Report" value="false"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="Root Folder" value=""/>
+  <con:entry key="Select Report Type" value=""/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="Endpoint" value=""/>
+</xml-fragment>]]></con:setting><con:setting id="com.smartbear.swagger.ExportSwaggerAction$FormBase Path"/><con:setting id="com.smartbear.swagger.ExportSwaggerAction$FormTarget Folder">C:\Users\jouke-bouwe\Desktop</con:setting><con:setting id="com.smartbear.swagger.ExportSwaggerAction$FormFormat">json</con:setting><con:setting id="com.smartbear.swagger.ExportSwaggerAction$FormAPI Version">1.0</con:setting><con:setting id="com.smartbear.swagger.ExportSwaggerAction$FormSwagger Version">2.0</con:setting></con:settings><con:interface xsi:type="con:RestService" id="8ddcc263-d70f-44da-bee1-1a39cf73e625" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://localhost:8082" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://localhost:8082</con:endpoint></con:endpoints><con:resource name="BerekenPrijs" path="/PraktijkOpdracht2_Rest/rest/berekenElecktriciteit/berekenPrijs" id="0de0bd62-4bb9-4523-97a2-be7eac8962fe"><con:settings/><con:parameters><con:parameter><con:name>beginwaarde</con:name><con:value>2</con:value><con:style>QUERY</con:style><con:default>2</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>eindwaarde</con:name><con:value>3</con:value><con:style>QUERY</con:style><con:default>3</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>prijs</con:name><con:value>0.5</con:value><con:style>QUERY</con:style><con:default>0.5</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="BerekenPrijs 1" id="0b2a9ff7-ef8c-423e-b753-dec0d9ffa77b" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/></con:representation><con:request name="test1" id="8bbf3248-2250-44eb-921a-68efd9b3aca4" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request/><con:originalUri>http://localhost/PraktijkOpdracht2_Rest/rest/berekenElecktriciteit/berekenPrijs</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="beginwaarde" value="40123"/>
+  <con:entry key="prijs" value="0.5"/>
+  <con:entry key="eindwaarde" value="42322"/>
+</con:parameters><con:parameterOrder><con:entry>beginwaarde</con:entry><con:entry>eindwaarde</con:entry><con:entry>prijs</con:entry></con:parameterOrder></con:request><con:request name="test2" id="95aadd1a-5f7a-4413-b483-cef946305111" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request/><con:originalUri>http://localhost/PraktijkOpdracht2_Rest/rest/berekenElecktriciteit/berekenPrijs</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="beginwaarde" value="12894"/>
+  <con:entry key="prijs" value="0.2"/>
+  <con:entry key="eindwaarde" value="24232"/>
+</con:parameters></con:request><con:request name="test3" id="7f72bf49-2f40-4382-884b-9c232ca9ee47" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request/><con:originalUri>http://localhost/PraktijkOpdracht2_Rest/rest/berekenElecktriciteit/berekenPrijs</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="beginwaarde" value="84231"/>
+  <con:entry key="prijs" value="0"/>
+  <con:entry key="eindwaarde" value="84300"/>
+</con:parameters></con:request><con:request name="test4" id="2d754fdc-5d63-4359-9173-1f1f946d813f" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request/><con:originalUri>http://localhost/PraktijkOpdracht2_Rest/rest/berekenElecktriciteit/berekenPrijs</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="beginwaarde" value="0"/>
+  <con:entry key="prijs" value="0"/>
+  <con:entry key="eindwaarde" value="0"/>
+</con:parameters></con:request><con:request name="test5" id="476ae82b-6b90-4d2f-8223-5247f228d3d1" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8082</con:endpoint><con:request/><con:originalUri>http://localhost/PraktijkOpdracht2_Rest/rest/berekenElecktriciteit/berekenPrijs</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="beginwaarde" value="-1123"/>
+  <con:entry key="prijs" value="-0.5"/>
+  <con:entry key="eindwaarde" value="-8322"/>
+</con:parameters></con:request></con:method></con:resource></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>
